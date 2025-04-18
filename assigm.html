@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYMSHARK</title>
+    <style>
+        
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: black;
+            color: white;
+            padding: 15px 20px;
+            position: relative;
+            text-align: center;
+        }
+
+        .gymimg {
+            width: 120px;
+            height: auto;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+        }
+
+        .login-icon {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            background-color: #fff;
+            color: black;
+            padding: 8px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .login-icon:hover {
+            background-color: #ddd;
+        }
+
+        
+        nav {
+            background: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 20px;
+            transition: 0.3s;
+            padding: 15px;
+        }
+
+        nav a:hover {
+            background-color: white;
+            color: black;
+        }
+
+      
+        section {
+            padding: 60px 20px;
+            background-color: white;
+            border-bottom: 1px solid black;
+        }
+
+        .box {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .workout-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+        }
+
+        .workout-img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            display: block;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .workout-img:hover {
+            opacity: 0.7;
+        }
+
+        .workout-desc {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        footer {
+            background: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 22px;
+                margin-top: 60px;
+            }
+
+            .gymimg {
+                width: 100px;
+                left: 10px;
+                top: 10px;
+            }
+
+            nav {
+                padding: 15px 0;
+            }
+
+            nav a {
+                font-size: 14px;
+                margin: 5px;
+            }
+
+            section {
+                padding: 40px 15px;
+            }
+
+            .workout-container {
+                margin-top: 30px;
+                flex-direction: column;
+            }
+
+            .workout-img {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .box {
+                padding: 15px;
+                margin: 15px 10px;
+            }
+
+            .login-icon {
+                font-size: 14px;
+                padding: 8px 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gymimg {
+                width: 80px;
+                top: 10px;
+                left: 10px;
+            }
+
+            header h1 {
+                font-size: 18px;
+            }
+
+            nav {
+                padding: 10px 0;
+            }
+
+            nav a {
+                font-size: 12px;
+                margin: 5px;
+            }
+
+            .workout-img {
+                max-width: 90%;
+            }
+
+            footer {
+                font-size: 12px;
+                padding: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="login.html" class="login-icon">Login</a>
+        <img class="gymimg" src="Gymshark-Symbole-2-aspect-ratio-3-2.jpg" alt="GYMSHARK">
+        <h1>We LIFT Your LIFE</h1>
+    </header>
+
+    <nav>
+        <a href="assigm.html">Home</a>
+        <a href="Contact.html">Contact</a>
+        <a href="BMI.html">BMI Calculator</a>
+        <a href="MealPlan.html">Meal Plan</a>
+        <a href="Schedule.html">Schedule</a>
+        <a href="Store.html">Store</a>
+        <a href="Staffgym.html">Staff</a>
+        <a href="SubscriptionMember.html">Membership</a>
+    </nav>
+
+    <section>
+        <h2>#NoExcuses</h2>
+        <div class="box">
+            <p>"Empower individuals to achieve their fitness goals by providing expert guidance, high-quality training programs, and a supportive community. We aim to inspire and motivate people of all fitness levels to adopt a healthier and more active lifestyle through innovative workout plans, nutritional insights, and state-of-the-art fitness resources."</p>
+        </div>
+    </section>
+
+    <section>
+        <h1>Workout Tips</h1>
+        <p class="workout-tips">Discover the best full-body workout routines to maximize your strength and endurance.</p>
+        <div class="workout-container">
+            <a href="Tips.html">
+                <img class="workout-img" src="https://marathonhandbook.com/wp-content/uploads/2022/08/Total-Body-Gym-Workout.jpg" alt="Tips">
+            </a>
+        </div>
+        <p class="workout-desc">Activity</p>
+        <p class="workout-desc"><strong>Home Exercises</strong></p>
+        <p style="text-align: center;">All you need is just a little motivation and time to crush these heart-pumping moves.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 GYMSHARK. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
